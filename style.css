@@ -1,5 +1,5 @@
 *{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding-left: 10px;
     background-color: #f0dec6;
     color:  #7c6767;
@@ -25,6 +25,8 @@ a{
     border-radius: 50%;
     align-self: center;
     height: 50vh;
+    width: 50vh;
+    shape-image-threshold:initial ;
 }
 h2{
     text-align: center;
@@ -45,7 +47,7 @@ h1{
     font-size: 7rem;
 }
 span{
-    color: #795b5b;
+    color: #633d3d;
 }
 .logo{
     position: absolute;
@@ -56,3 +58,6 @@ span{
     font-weight: 600;
     color: #625261;
 }
+.intro,.education,.experience,.skills,.projects,.contact,.abc,.languages
+{border:2px solid rgb(172, 135, 135) ;
+margin:10px ;}
